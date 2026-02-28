@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import resume from "../assets/resume.pdf";
 
 export default function Navbar() {
   const location = useLocation();
@@ -116,7 +117,7 @@ export default function Navbar() {
             ))}
 
             <a
-              href="/resume.pdf"
+              href="../assets/resume.pdf"
               download="Priyadharsan_Karunanithi_Resume.pdf"
               className="resume-btn ml-2"
             >
