@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  scroll-behavior: smooth;
+  font-family: 'JetBrains Mono', monospace;
+  
+}
+.glow {
+  text-shadow: 0 0 5px #00ff41;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Flicker Animation */
+.flicker {
+  color: #00ff41;
+  text-shadow:
+    0 0 5px #00ff41,
+    0 0 10px #00ff41,
+    0 0 20px #00ff41;
+  animation: flickerAnimation 2s infinite;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity: 1; }
+  5%   { opacity: 0.4; }
+  10%  { opacity: 1; }
+  15%  { opacity: 0.6; }
+  20%  { opacity: 1; }
+  55%  { opacity: 1; }
+  60%  { opacity: 0.3; }
+  65%  { opacity: 1; }
+  100% { opacity: 1; }
+}
