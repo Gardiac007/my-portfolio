@@ -117,7 +117,7 @@ export default function Navbar() {
             ))}
 
             <a
-              href="../assets/resume.pdf"
+              href="/resume.pdf"
               download="Priyadharsan_Karunanithi_Resume.pdf"
               className="resume-btn ml-2"
             >
