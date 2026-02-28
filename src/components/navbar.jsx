@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import resume from "../assets/resume.pdf";
+
 
 export default function Navbar() {
   const location = useLocation();
