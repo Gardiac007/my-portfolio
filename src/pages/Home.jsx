@@ -7,37 +7,37 @@ const certifications = [
     title: "Ethical Hacker",
     issuer: "Cisco",
     date: "October 2025",
-    image: "/certifications/Ethical Hacker - CISCO.png",
+    image: "/certifications/ethical-hacker-cisco.png",
   },
   {
     title: "Intro to Cybersecurity",
     issuer: "Cisco",
     date: "September 2025",
-    image: "/certifications/Intro to Cybersecurity - CISCO.png",
+    image: "/certifications/intro-to-cybersecurity-cisco.png",
   },
   {
     title: "Certified in Cybersecurity - Pre requisites",
     issuer: "ISC2",
     date: "March 2025",
-    image: "/certifications/ISC2.png",
+    image: "/certifications/isc2.png",
   },
   {
     title: "WIZ Bug Bounty Masterclass",
     issuer: "WIZ",
     date: "February 2026",
-    image: "/certifications/WIZ Bugbounty.png",
+    image: "/certifications/wiz-bugbounty.png",
   },
   {
     title: "Python Developer Internship",
     issuer: "Techjays",
     date: "August 2025",
-    image: "/certifications/Techjays.png",
+    image: "/certifications/techjays.png",
   },
   {
     title: "NM Network Essentials",
     issuer: "Govt. of Tamilnadu",
     date: "August 2025",
-    image: "/certifications/NM Network Essentials.png",
+    image: "/certifications/nm-network-essentials.png",
   },
 ];
 

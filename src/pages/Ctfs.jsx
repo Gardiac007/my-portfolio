@@ -5,7 +5,7 @@ export default function CTFs() {
   const [bootText, setBootText] = useState("");
   const [loaded, setLoaded] = useState(false);
   const [visible, setVisible] = useState(false);
-  const fullBootText = "> Scanning CTF records...\n> Decrypting participation logs...\n> 3 entries found. Displaying...";
+  const fullBootText = "> Scanning CTF records...\n> Decrypting participation logs...\n> 4 entries found. Displaying...";
 
   useEffect(() => {
     let i = 0;
@@ -27,22 +27,22 @@ export default function CTFs() {
     {
       title: "Hackquest 2k26",
       date: "February 2026",
-      image: "/ctf-certs/Hackquest 2k26.png",
+      image: "/ctf-certs/hackquest-2k26.png",
     },
     {
       title: "Eschaton CTF",
       date: "January 2026",
-      image: "/ctf-certs/Eschaton_CTF.png",
+      image: "/ctf-certs/eschaton-ctf.png",
     },
     {
       title: "Advent of Cyber 2025 - Tryhackme",
       date: "December 2025",
-      image: "/ctf-certs/AoC 2025.png",
+      image: "/ctf-certs/aoc-2025.png",
     },
     {
       title: "Huntress CTF",
       date: "October 2025",
-      image: "/ctf-certs/Huntress CTF.png",
+      image: "/ctf-certs/huntress-ctf.png",
     },
   ];
 
