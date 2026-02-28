@@ -1,43 +1,50 @@
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import ethicalhacker from "../assets/certifications/ethical-hacker-cisco.png";
+import introtocybersecurity from "../assets/certifications/intro-to-cybersecurity-cisco.png";
+import isc2 from "../assets/certifications/isc2.png";
+import wizbb from "../assets/certifications/wiz-bugbounty.png";
+import techjays from "../assets/certifications/techjays.png";
+import nm from "../assets/certifications/nm-network-essentials.png";
+
 
 const certifications = [
   {
     title: "Ethical Hacker",
     issuer: "Cisco",
     date: "October 2025",
-    image: "/certifications/ethical-hacker-cisco.png",
+    image: ethicalhacker,
   },
   {
     title: "Intro to Cybersecurity",
     issuer: "Cisco",
     date: "September 2025",
-    image: "/certifications/intro-to-cybersecurity-cisco.png",
+    image: introtocybersecurity,
   },
   {
     title: "Certified in Cybersecurity - Pre requisites",
     issuer: "ISC2",
     date: "March 2025",
-    image: "/certifications/isc2.png",
+    image: isc2,
   },
   {
     title: "WIZ Bug Bounty Masterclass",
     issuer: "WIZ",
     date: "February 2026",
-    image: "/certifications/wiz-bugbounty.png",
+    image: wizbb,
   },
   {
     title: "Python Developer Internship",
     issuer: "Techjays",
     date: "August 2025",
-    image: "/certifications/techjays.png",
+    image: techjays,
   },
   {
     title: "NM Network Essentials",
     issuer: "Govt. of Tamilnadu",
     date: "August 2025",
-    image: "/certifications/nm-network-essentials.png",
+    image: nm,
   },
 ];
 
@@ -240,7 +247,7 @@ export default function Home() {
 
             <div className="p-4 font-mono border-t border-green-500/20">
               <p className="text-green-400 text-sm font-bold">{selected.title}</p>
-              <p className="text-gray-500 text-xs mt-1">🏢 {selected.issuer}</p>
+              <p className="text-gray-500 text-xs mt-1">{selected.issuer}</p>
               <p className="text-gray-600 text-xs mt-1">🗓 {selected.date}</p>
               <p className="text-green-700 text-xs mt-2 tracking-widest">STATUS: VERIFIED ✓</p>
             </div>

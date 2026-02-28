@@ -1,4 +1,8 @@
 import { useState, useEffect } from "react";
+import hackquest from "../assets/ctf-certs/hackquest-2k26.png";
+import eschaton from "../assets/ctf-certs/eschaton-ctf.png";
+import aoc2025 from "../assets/ctf-certs/aoc-2025.png";
+import huntress from "../assets/ctf-certs/huntress-ctf.png";
 
 export default function CTFs() {
   const [selected, setSelected] = useState(null);
@@ -27,22 +31,22 @@ export default function CTFs() {
     {
       title: "Hackquest 2k26",
       date: "February 2026",
-      image: "/ctf-certs/hackquest-2k26.png",
+      image: hackquest,
     },
     {
       title: "Eschaton CTF",
       date: "January 2026",
-      image: "/ctf-certs/eschaton-ctf.png",
+      image: eschaton,
     },
     {
       title: "Advent of Cyber 2025 - Tryhackme",
       date: "December 2025",
-      image: "/ctf-certs/aoc-2025.png",
+      image: aoc2025,
     },
     {
       title: "Huntress CTF",
       date: "October 2025",
-      image: "/ctf-certs/huntress-ctf.png",
+      image: huntress,
     },
   ];
 
